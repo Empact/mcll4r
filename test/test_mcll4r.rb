@@ -17,7 +17,8 @@ class TestMcll4r < Test::Unit::TestCase
         "lat"         => "31.76321"                                                          
       }                                                                                      
     }
-    assert_equal expected, @mcll4r.district_lookup(31.76321, -106.490969)
+    result = @mcll4r.district_lookup(31.76321, -106.490969)
+    assert_equal expected, result.to_hash
   end
 
   def test_assert_raise_on_error
