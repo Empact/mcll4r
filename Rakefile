@@ -22,7 +22,6 @@ Jeweler::Tasks.new do |gem|
   gem.email = "ben.woosley@gmail.com"
   gem.authors = ["Benjamin Stein", "Mal McKay", "Nathan Woodhull", "Ben Woosley"]
   # dependencies defined in Gemfile
-  gem.add_dependency 'httparty'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
