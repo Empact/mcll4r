@@ -1,7 +1,7 @@
 require 'mcll4r'
 require 'test/unit'
  
-class Mcll4rTest < Test::Unit::TestCase
+class TestMcll4r < Test::Unit::TestCase
   
   def setup
     @mcll4r = Mcll4r.new
